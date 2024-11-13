@@ -2,7 +2,7 @@ import Homepage from "./Homepage/Homepage"
 import {BrowserRouter,Routes, Route} from "react-router-dom"
 import Header from "./static/Header"
 import MinisterData from "./components/MinisterData"
-import Bible from "./components/bible"
+import Bible from "./components/Bible"
 import ProgramSchedule from "./components/ProgramSchedule"
 
 function App() {
