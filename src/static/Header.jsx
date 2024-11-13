@@ -1,14 +1,14 @@
 import { useState } from "react";
 import Navlinks from "../components/Navlinks";
 import "../styles/Header.css";
-import { IoIosMenu, IoIosClose } from "react-icons/io"; // Import IoIosClose icon
+import { IoIosMenu, IoIosClose } from "react-icons/io"; 
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [navState, setNavState] = useState(false); // State to control navbar visibility
+  const [navState, setNavState] = useState(false); 
 
   const toggleNavBar = () => {
-    setNavState(!navState); // Toggle navState (open/close)
+    setNavState(!navState); 
   };
 
   return (
@@ -20,7 +20,7 @@ const Header = () => {
           <nav>WATCH</nav>
           <nav>ABOUT</nav>
           <nav>BIBLE</nav>
-          <nav> <Link to={"/guestMinisters"}>GUEST MINISTERS</Link> </nav>
+          <nav> <Link className="no-underline" to={"/guestMinisters"}>GUEST MINISTERS</Link> </nav>
         </div>
 
         {/* Toggle between menu and close icon based on navState */}
