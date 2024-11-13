@@ -1,5 +1,5 @@
 
-import ProfileCard from './ProfileCard'; // Make sure to import the ProfileCard component
+import ProfileCard from './ProfileCard'; 
 import juwon from "../assets/jpg/juwon.jpg"
 import beloved from "../assets/jpg/beloved.jpg"
 
