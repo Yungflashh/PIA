@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #menu{
+    display: none;
+  }
+  
+
+  .HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a; 
+    color: white;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  /* Navbar Links Container */
+  .links {
+    display: flex;
+    gap: 2rem; /* Space between nav items */
+    align-items: center;
+  }
+  
+  /* Navbar Links */
+  .links nav {
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover Effect for Links */
+  .links nav:hover {
+    color: #f0a500; /* Accent color */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+
+    #menu{
+        display:flex;
+        font-size: 30px;
+    }
+    /* .HeaderContainer {
+      flex-direction: column;
+      
+    } */
+  
+    .links {
+      display: none;
+    }
+    
+    .logo {
+      margin-bottom: 1rem;
+    }
+  }
+  
