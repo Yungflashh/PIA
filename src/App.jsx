@@ -6,6 +6,7 @@ import Bible from "./components/Bible"
 import ProgramSchedule from "./components/ProgramSchedule"
 import Watch from "./components/Watch"
 import About from "./components/About"
+import ImageAccess from "./components/ImageAccess"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/bible" element = {<Bible/>} />
           <Route path="/program" element = {<ProgramSchedule/>} />
           <Route path="/watch" element = {<Watch/>} />
+          <Route path="/imageAccess" element = {<ImageAccess/>} />
       
 
       </Routes>

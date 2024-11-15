@@ -41,6 +41,7 @@ import photo37 from '../assets/images/photo37.jpg';
 import photo39 from '../assets/images/photo39.jpg';
 import photo40 from '../assets/images/photo40.jpg';
 import photo41 from '../assets/images/photo41.jpg';
+import { Link } from 'react-router-dom';
 
 
 const photos = [
@@ -111,7 +112,11 @@ const PhotoBook = () => {
     <div className="photo-book">
       <img src={photos[currentIndex]} alt={`Photo ${currentIndex + 1}`} className="photo" />
       <p>Photo {currentIndex + 1} of {photos.length}</p>
+
+    <Link to={"/imageAccess"}> <button>Get My Images</button> </Link>
     </div>
+       
+    
 
 
     <div id="historyText">

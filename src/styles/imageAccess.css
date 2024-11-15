@@ -1,0 +1,28 @@
+ /* Container styling */
+ .form-container {
+    max-width: 900px; /* Max width to ensure it's not too wide on large screens */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevent any overflow from the iframe */
+}
+
+/* Iframe styling */
+.form-iframe {
+    width: 100%; /* Full width of the container */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners for the iframe */
+}
+
+/* Make the iframe responsive on smaller screens */
+@media screen and (max-width: 768px) {
+    .form-container {
+        padding: 15px; /* Slightly less padding on small screens */
+    }
+
+    .form-iframe {
+        height: 600px; /* Adjust iframe height for smaller screens */
+    }
+}
