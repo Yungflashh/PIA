@@ -137,7 +137,7 @@ const PhotoBook = () => {
             Join us for a night of true worship, joy, and divine encounters!
         </p>
 
-        <a href="#" className="cta-button">RSVP for Praise in Advance</a>
+        <a href="wa.me/2349058949877" className="cta-button">RSVP for Praise in Advance</a>
     </div>
 
     </>
