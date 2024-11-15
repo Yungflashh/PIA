@@ -113,7 +113,7 @@ const PhotoBook = () => {
       <img src={photos[currentIndex]} alt={`Photo ${currentIndex + 1}`} className="photo" />
       <p>Photo {currentIndex + 1} of {photos.length}</p>
 
-    <Link to={"/imageAccess"}> <button>Get My Images</button> </Link>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSflPhq_24tzRUy8R4g_8B1XqvZB_xMnCXE7BrDc_sKxjdzY0w/viewform?usp=pp_url" target='_blank'> <button>Get My Images</button> </a>
     </div>
        
     
