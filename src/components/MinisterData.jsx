@@ -11,7 +11,7 @@ const MinisterData = () => {
 
 
     {
-      name: 'SEYI MUSIC',
+      name: 'OLUWASEYI',
       image: seyi,
       bio: 'Omotosho Oluwaseyi is a gifted music minister and professional photographer dedicated to inspiring lives through her talents. Known for her heartfelt worship, she leads people into deeper encounters with God through her gospel music.Married to the talented gospel music celebrity Omotosho Oluwafemi, the crooner of Momo Riri Re, Oluwaseyi shares a beautiful partnership in ministry and music. Together, they impact lives with their passion for spreading God’s love.In addition to her music, Oluwaseyi is a skilled photographer, capturing memorable moments with creativity and excellence. She continues to glorify God and touch lives through her gifts in music and artistry..'
     },
