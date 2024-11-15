@@ -17,23 +17,23 @@ const Navlinks = () => {
         <div className="navContainer">
           <div className="linksMobile">
             <nav>
-              <Link  className="no-underline" to="/" onClick={handleLinkClick}>
-                WATCH
+              <Link  className="no-underline" to="/watch" onClick={handleLinkClick}>
+                Watch
               </Link>
             </nav>
             <nav>
               <Link  className="no-underline" to="/about" onClick={handleLinkClick}>
-                ABOUT
+                Meet the Founder
               </Link>
             </nav>
             <nav>
               <Link  className="no-underline" to="/bible" onClick={handleLinkClick}>
-                BIBLE
+                Bible
               </Link>
             </nav>
             <nav>
               <Link  className="no-underline" to="/guestMinisters" onClick={handleLinkClick}>
-                GUEST MINISTERS
+                Guest Ministers
               </Link>
             </nav>
           </div>

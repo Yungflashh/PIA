@@ -33,7 +33,7 @@
   @media (max-width: 768px) {
     .navContainer {
       position: relative;
-      height: 50vh;
+      height: 220px;
       width: 100%;
       display: flex;
       justify-content: center;

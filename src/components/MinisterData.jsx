@@ -2,9 +2,19 @@
 import ProfileCard from './ProfileCard'; 
 import juwon from "../assets/jpg/juwon.jpg"
 import beloved from "../assets/jpg/beloved.jpg"
+import segun from "../assets/jpg/segun.jpg"
+import seyi from "../assets/jpg/seyi.jpg"
+import danny from "../assets/jpg/danny.jpg"
 
 const MinisterData = () => {
   const ministerData = [
+
+
+    {
+      name: 'SEYI MUSIC',
+      image: seyi,
+      bio: 'Omotosho Oluwaseyi is a gifted music minister and professional photographer dedicated to inspiring lives through her talents. Known for her heartfelt worship, she leads people into deeper encounters with God through her gospel music.Married to the talented gospel music celebrity Omotosho Oluwafemi, the crooner of Momo Riri Re, Oluwaseyi shares a beautiful partnership in ministry and music. Together, they impact lives with their passion for spreading God’s love.In addition to her music, Oluwaseyi is a skilled photographer, capturing memorable moments with creativity and excellence. She continues to glorify God and touch lives through her gifts in music and artistry..'
+    },
     {
       name: 'JUWON PRAISE',
       image: juwon,
@@ -24,13 +34,13 @@ const MinisterData = () => {
 
       {
         name: 'DANNYT',
-        image: "https://via.placeholder.com/200x300",
+        image: danny,
         bio: 'Pastor Daniel Adenusi is a lover of God and good music, his exposure to music started at an early age and has been composing songs for many years . He is an incredible worshipper and energetic praiser and has contributed immensely to the development and progress of his local church music department, without mincing words he understoods how to make the best food that God likes whenever he enters into the Kitchen of Praise.'
       },
 
       {
         name: 'SEGUN VICTORY',
-        image: "https://via.placeholder.com/200x300",
+        image: segun,
         bio: 'I began my musical journey as a teenager in the choir at St. Peter Anglican Church in Shonyindo, Shagamu, Ogun State. Upon gaining admission to Lagos State University (LASU), I became a member of the choir at my current church, Tower of Victory Church International in Erunwen, Ikorodu, Lagos State. It was here that my career truly began to flourish. This is also where I adopted my stage name, "Segun Victory." Since then, my band and I have had the privilege of performing at various events, sharing God`s grace with the world. My goal for this year is to release my debut album. May God grant me the strength to accomplish this..'
       },
   ];

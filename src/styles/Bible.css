@@ -2,7 +2,7 @@
   
   .App {
     width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */
     background: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -64,6 +64,7 @@
     outline: none;
     margin-top: 5px;
     transition: border-color 0.3s ease;
+    text-align: center;
   }
   
   input:focus {

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navlinks from "../components/Navlinks";
+import { IoMdHome } from "react-icons/io";
 import "../styles/Header.css";
 import { IoIosMenu, IoIosClose } from "react-icons/io"; 
 import { Link } from "react-router-dom";
@@ -10,17 +11,37 @@ const Header = () => {
   const toggleNavBar = () => {
     setNavState(!navState); 
   };
+  const handleLinkClick = () => {
+    setIsNavVisible(false);
+  };
 
   return (
     <>
       <div className="HeaderContainer">
-        <h2>PIA2024</h2>
+        <h2> <Link  className="no-underline" to={"/"}> <IoMdHome /> PIA2024 </Link> </h2>
 
         <div className="links">
-          <nav>WATCH</nav>
-          <nav>ABOUT</nav>
-          <nav>BIBLE</nav>
-          <nav> <Link className="no-underline" to={"/guestMinisters"}>GUEST MINISTERS</Link> </nav>
+        <nav>
+              <Link  className="no-underline" to="/watch" onClick={handleLinkClick}>
+                Watch
+              </Link>
+            </nav>
+            <nav>
+              <Link  className="no-underline" to="/about" onClick={handleLinkClick}>
+                Meet the Founder
+              </Link>
+            </nav>
+            <nav>
+              <Link  className="no-underline" to="/bible" onClick={handleLinkClick}>
+                Bible
+              </Link>
+            </nav>
+            <nav>
+              <Link  className="no-underline" to="/guestMinisters" onClick={handleLinkClick}>
+                Guest Ministers
+              </Link>
+            </nav>
+          
         </div>
 
         {/* Toggle between menu and close icon based on navState */}
