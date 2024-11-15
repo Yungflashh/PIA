@@ -22,22 +22,22 @@ const Header = () => {
 
         <div className="links">
         <nav>
-              <Link  className="no-underline" to="/watch" onClick={handleLinkClick}>
+              <Link  className="no-underline" to="/watch" >
                 Watch
               </Link>
             </nav>
             <nav>
-              <Link  className="no-underline" to="/about" onClick={handleLinkClick}>
+              <Link  className="no-underline" to="/about" >
                 Meet the Founder
               </Link>
             </nav>
             <nav>
-              <Link  className="no-underline" to="/bible" onClick={handleLinkClick}>
+              <Link  className="no-underline" to="/bible" >
                 Bible
               </Link>
             </nav>
             <nav>
-              <Link  className="no-underline" to="/guestMinisters" onClick={handleLinkClick}>
+              <Link  className="no-underline" to="/guestMinisters" >
                 Guest Ministers
               </Link>
             </nav>
