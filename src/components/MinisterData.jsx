@@ -5,6 +5,7 @@ import beloved from "../assets/jpg/beloved.jpg"
 import segun from "../assets/jpg/segun.jpg"
 import seyi from "../assets/jpg/seyi.jpg"
 import danny from "../assets/jpg/danny.jpg"
+import ayodeji from "../assets/jpg/ayodeji.jpg"
 
 const MinisterData = () => {
   const ministerData = [
@@ -28,7 +29,7 @@ const MinisterData = () => {
 
     {
         name: 'AYODEJI SAMPRAIZ',
-        image: "https://via.placeholder.com/200x300",
+        image: ayodeji,
         bio: 'From an early age, Ayodeji Sampraiz has carried a profound passion for music and ministry. Starting to sing in the Choir at the tender age of 8. Ayodeji Sampraiz began to develop his gift, growing in both talent and spiritual depth. During his fourth year at the University of Lagos, he served as the music director of his fellowship, leading worship and music with excellence. His leadership continued during his service year in Kebbi, Nigeria, where he was appointed as the music director of his zone.Currently, Ayodeji Sampraiz is a committed member of Celebration Church International, where he contributes actively by serving in the media department. A gifted songwriter, Ayodeji Sampraiz has written numerous songs, with five of them produced so far, including the well-known and impactful "Enibafere." Through his music, Ayodeji Sampraiz seeks to ignite the fire of God across the nations, ministering with authority and power, and proclaiming the name of Jesus to his generation.His ultimate goal is to inspire a deeper connection to God through worship and to create music that transforms lives by drawing people into the presence of God.'
       },
 
