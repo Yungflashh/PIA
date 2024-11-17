@@ -1,1 +1,1 @@
-This is a Platform i built for my Church Night of Praise. It has Sections which Introudced guest Ministers of the Progra,]m. It aolso has other featured like the open Bible . Chceck it out on pia2024.vercel.app
+This is a Platform i built for my Church Night of Praise. It has Sections which Introudced guest Ministers of the Program. It aolso has other featured like the open Bible . Chceck it out on pia2024.vercel.app
